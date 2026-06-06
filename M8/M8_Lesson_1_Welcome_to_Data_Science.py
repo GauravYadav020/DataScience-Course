@@ -10,5 +10,18 @@ print(sum(marks)/len(marks))
 highest = max(marks)
 print(highest)
 
-# Summary:
+
+
+
+# Summary: ACP
 # Learned what data is and how it can be analyzed.
+import pandas as pd
+
+data = {"Name":["Aman","Riya"],"Marks":[90,85]}
+df = pd.DataFrame(data)
+print(df)
+
+print(df.head())
+
+print(df["Name"])
+

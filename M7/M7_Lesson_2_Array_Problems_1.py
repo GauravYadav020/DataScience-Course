@@ -12,3 +12,5 @@ print(min(arr))
 
 # Summary:
 # Practiced finding sum, maximum and minimum values.
+
+

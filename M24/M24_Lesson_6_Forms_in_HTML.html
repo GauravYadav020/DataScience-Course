@@ -1,0 +1,49 @@
+<!-- M24 Lesson 6 – Forms in HTML -->
+<!-- Short Description: Creating interactive forms with inputs and buttons. -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>Personal Details Form</h1>
+    <form>
+      <label>Name</label><br>
+      <input type="text" id="name"><br><br>
+      <label>Email ID</label><br>
+      <input type="text" id="email"><br><br>
+      <label>Contact Number (This will be hidden)</label><br>
+      <input type="password" id="contact"><br><br>
+      <label>Gender</label><br>
+      <input type="radio" id="female" name="gender" value="Female">Female<br>
+      <input type="radio" id="male" name="gender" value="Male">Male<br><br>
+      <label>Favourite City</label><br>
+      <input type="checkbox" id="city" value="New Delhi">New Delhi<br>
+      <input type="checkbox" id="city" value="Mumbai">Mumbai<br><br>
+      <input type="submit">
+    </form>
+  </body>
+</html>
+
+<!-- Activity 1 -->
+<!-- Goal: Build a basic registration form. -->
+<!-- Summary: Use input types like text, email, password. -->
+<form>
+    <label>Name: <input type="text"></label><br>
+    <label>Email: <input type="email"></label><br>
+    <button type="submit">Submit</button>
+</form>
+
+<!-- Activity 2 -->
+<!-- Goal: Add radio buttons, checkboxes, and select dropdown. -->
+<!-- Summary: Practice different form controls. -->
+<input type="radio" name="gender"> Male
+<input type="checkbox"> Agree to terms
+<select><option>Option 1</option></select>
+
+<!-- Activity 3 -->
+<!-- Goal: Create a complete contact form with validation attributes. -->
+<!-- Summary: Use required, placeholder, etc. -->

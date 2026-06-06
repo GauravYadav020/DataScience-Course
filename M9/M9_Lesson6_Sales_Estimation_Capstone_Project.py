@@ -1,6 +1,6 @@
 # ============================================================
-# M9 Lesson 6 – Sales Estimation Capstone Project
-# ============================================================
+# M9 Lesson 6 – Sales Estimation Capstone Project (Drive link = "https://drive.google.com/drive/folders/1KNZiYJaS2SICGy6VkJpFqTnrMpg9m7Ii?usp=drive_link")
+# ======================================================== ====
 # This capstone project combines all M9 skills: data entry,
 # functions, validation, charts, and pivot tables into one
 # complete real-world sales estimation spreadsheet.
